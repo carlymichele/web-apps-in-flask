@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>My App in Flask</title>
+    </head>
+    <body>
+        HOME PAGE STUFF
+        <br>
+
+        Your lucky number is {{ num }}.
+
+        <br>
+
+        <!-- "Jinja" -->
+
+        <br>
+
+        {% if num == 7 %}
+        WOW SO LUCKY
+        {% else %}
+        Oh well
+        {% endif %}
+
+        {% for num in nums %}
+        <li>{{ num }}</li>
+        {% endfor %}
+    </body>
+</html>

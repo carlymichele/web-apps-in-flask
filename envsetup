@@ -1,0 +1,10 @@
+How to Set Up Environment
+
+make app folder
+python3 -m venv "environmentName"
+1. cd to app folder
+2. call "source myenv/bin/activate"
+3. cd myenv
+4. python app.py
+
+Now app is up and running!
